@@ -15,3 +15,4 @@ likes(john, pamela).
 likes(mary, ravi).
 likes(pamela, john).
 
+friends(P1, P2) :- likes(P1, P2), likes(P2, P1).
